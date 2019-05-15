@@ -1,0 +1,41 @@
+.header {
+    background-color: aquamarine;
+    text-align: center;
+    height: 75px;
+    /* margin: 0 auto; */
+    border: 2px solid;
+    /* width: 50px; */
+    padding: 15px;
+}
+
+.instruction {
+    background-color: antiquewhite;
+    width: 50%;
+    border: 2px dotted aqua;
+}
+
+.number-box{
+    background-color: #44aaaa;
+    width: 10%;
+}
+
+.wins-losses {
+    
+    background-color: aliceblue;
+}
+
+.crystal-images {
+    width: 50%;
+    /* border: 3px dotted lightsalmon; */
+}
+
+.score-text {
+background-color: lightpink;
+width: 15%;
+}
+
+.score-box {
+    background-color: lightseagreen;
+    width: 20%;
+    height: 110px;
+}

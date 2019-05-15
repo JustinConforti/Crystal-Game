@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <title>Crystal Game</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 header">
+                <header>Crystal Collector</header>
+            </div>
+        </div>
+
+        <div class="row instruction">
+            <div class="col-md-12">
+                <p>You will get a random number at th beginning of the game.</p>
+                <p>There are four crytals below. By clicking on a cyrstal you will add a specifc amount of points to your total score.</p>
+                <p>You win the game matching your total score to the random number, you lose the game if your total score gets above the random number.</p>
+                <p>The value of each cyrstal is hidden from you until you click on it.</p>
+                <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            </div>
+            
+        </div>
+
+        <div class="row random-number">
+            <div class="col-md-4" id="number-box">
+                <p>#</p>
+            </div>
+            <div class="col-md-4 wins-losses">
+                <p>wins: <span id ="wins"></p></span>
+                <p>loses: <span id ="loses"</p></span>            
+            </div>
+            
+        </div>
+
+        <div class="row crystal-images">
+            <div class="col-md-3">
+                <button>
+                    <img id="crystal-one" class="crystals" src="assets/images/ame.jpg" alt="Amethyst crystal" value = "1" width="150" height="150">
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button>
+                    <img id="crystal-two" src="assets/images/rose.jpg" alt="Rose Quarts" value = "2" width="150" height="150">
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button>
+                    <img id="crystal-three" src="assets/images/fluorite.jpg" alt="Fluorite crystal" value = 3 width="150" height="150">
+                </button>
+            </div>
+            <div class="col-md-3">
+                <button>
+                    <img id="crystal-four" src="assets/images/tan.jpg" alt="Tanzanite crystal" value = 4 width="150" height="150">
+                </button>
+            </div>
+        </div>
+
+        <div class="row score-text">
+            <div class="col-md-12 score-text">
+                <p>Your total is:</p>
+            </div>
+        </div>
+
+        <div class="row score-box">
+            <div class="col-md-12" id ="score">
+                <p>score</p>
+            </div>
+        </div>
+
+
+
+        </div>
+    
+    <script type="text/javascript" src="assets/javascript/game.js">
+    
+    </script>
+</body>
+</html>
